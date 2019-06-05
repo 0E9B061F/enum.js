@@ -1,16 +1,18 @@
 {
   "name": "enum.js",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Create enumerations",
   "main": "enum.js",
-  "files": ["enum.js"],
+  "files": [
+    "enum.js"
+  ],
   "scripts": {
     "test": "mocha",
     "doc": "./node_modules/.bin/esdoc -c .esdoc.json",
     "pub": "npm publish --registry http://localhost:4873"
   },
   "author": "aetherised",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {},
   "devDependencies": {
     "chai": "^4.2.0",
